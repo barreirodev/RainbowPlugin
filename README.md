@@ -9,7 +9,7 @@
 
 ## Requisito previo
 
-- Descargar la carpeta [checkpoints](https://drive.google.com/drive/folders/1DEN0nOx2-pNlzB-HDyGdQq1SVi-2U-Yk?usp=drive_link), descomprimirla y colocarla en la ruta `kAIros\ThirdParty\SPADE`
+- Descargar la carpeta [checkpoints](https://drive.google.com/file/d/1EexTB_Ptul2WW0sg5_TOLgo4_96httSF/view?usp=drive_link), descomprimirla y colocarla en la ruta `kAIros\ThirdParty\SPADE`
 
 ## Instalación en Unreal Engine
 
