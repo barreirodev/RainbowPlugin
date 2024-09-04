@@ -9,7 +9,7 @@
 
 ## Requisito previo
 
-- Descargar la carpeta [coco_pretrained](https://drive.google.com/drive/folders/1DEN0nOx2-pNlzB-HDyGdQq1SVi-2U-Yk?usp=drive_link) y colocarla en la ruta `kAIros\ThirdParty\SPADE\checkpoints`
+- Descargar la carpeta [coco_pretrained](https://drive.google.com/drive/folders/1DEN0nOx2-pNlzB-HDyGdQq1SVi-2U-Yk?usp=drive_link), descomprimirla y colocarla en la ruta `kAIros\ThirdParty\SPADE\checkpoints`
 
 ## Instalación en Unreal Engine
 
