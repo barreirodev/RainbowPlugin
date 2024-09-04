@@ -7,9 +7,13 @@
 [White Paper](https://docs.google.com/document/d/1D6_X6-fcu0jOLBRTdD9LhHJqMLjEklWp/edit?usp=sharing&ouid=108331310431866760033&rtpof=true&sd=true)
 | [Vídeo Montaje de Nivel](https://drive.google.com/file/d/1I9H3KxQre6rdp33lyExN2z2391BsqH1a/view?usp=sharing)
 
-## Instalación
+## Requisito previo
 
-### 1. Integración de la Herramienta kAIros con Unreal Engine
+- Descargar la carpeta coco_pretrained(https://drive.google.com/drive/folders/1DEN0nOx2-pNlzB-HDyGdQq1SVi-2U-Yk?usp=drive_link) y colocarla en la ruta `kAIros\ThirdParty\SPADE\checkpoints`
+
+## Instalación en Unreal Engine
+
+### 1. Integración de la Herramienta kAIros
 
 - Crear la carpeta `Plugins` en la raíz del proyecto, pegar la carpeta de kAIros y regenerar la solución.
 
