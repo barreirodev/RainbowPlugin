@@ -1,5 +1,6 @@
 from PIL import Image
 import argparse
+import os
 import numpy as np
 
 def ColorToLabel(r, g, b , colormap_path): 
@@ -33,6 +34,9 @@ def main():
     parser.add_argument('input_colormap_path', type=str)
 
     args = parser.parse_args()
+    dest_dir = os.path.dirname(os.path.abspath(args.input_inst_path))
+    if not os.path.exists(dest_dir):
+        os.makedirs(dest_dir)
     new_image = Image.fromarray(ConvertToGreyscale(args.input_label_path,args.input_colormap_path))
     new_image = new_image.convert('L')
     new_image.save(args.input_label_path)
