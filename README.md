@@ -15,7 +15,7 @@
 
 ### 1. Integración de la Herramienta kAIros
 
-- Crear la carpeta `Plugins` en la raíz del proyecto, pegar la carpeta de kAIros y regenerar la solución.
+- Crear la carpeta `Plugins` en la raíz del proyecto y pegar la carpeta de kAIros. Regenerar la solución si fuera necesario.
 
 ### 2. Encontrar kAIros dentro del Content Browser
 
