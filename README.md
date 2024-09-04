@@ -4,8 +4,8 @@
 
 ## Links
 
-[White Paper](https://docs.google.com/document/d/1D6_X6-fcu0jOLBRTdD9LhHJqMLjEklWp/edit?usp=sharing&ouid=108331310431866760033&rtpof=true&sd=true)
-| [Vídeo Montaje de Nivel](https://drive.google.com/file/d/1I9H3KxQre6rdp33lyExN2z2391BsqH1a/view?usp=sharing)
+[White Paper](https://drive.google.com/file/d/11Sefnpb76ci5WhjF5niEQ7aENXRuNTnA/view?usp=sharing)
+| [Vídeo Montaje de Nivel](https://drive.google.com/file/d/1sZylTRO6MfBr9T1_1lcPJihAl051Yr-c/view?usp=sharing)
 
 ## Requisito previo
 
