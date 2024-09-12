@@ -7,9 +7,21 @@
 [White Paper](https://drive.google.com/file/d/11Sefnpb76ci5WhjF5niEQ7aENXRuNTnA/view?usp=sharing)
 | [Vídeo Montaje de Nivel](https://drive.google.com/file/d/1sZylTRO6MfBr9T1_1lcPJihAl051Yr-c/view?usp=sharing)
 
-## Requisito previo
+## Requisitos previos
 
 - Descargar la carpeta [checkpoints](https://drive.google.com/file/d/1EexTB_Ptul2WW0sg5_TOLgo4_96httSF/view?usp=drive_link), descomprimirla y colocarla en la ruta `kAIros\ThirdParty\SPADE`
+- Instalar Python versión 3.12.2.
+- Evita utilizar espacios en los nombres de las carpetas del proyecto.
+- Ejecutar el siguiente comando en la ruta `kAIros\ThirdParty\SPADE`:
+  ```bash
+  pip install -r requirements.txt
+  ```
+- Instalar CUDA Toolkit versión 12.1. Se necesita una tarjeta gráfica de NVIDIA.
+- Instalar PyTorch para CUDA Toolkit con este comando:
+  ```bash
+  pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+  ```
+Reiniciar el equipo para que la herramienta funcione correctamente.
 
 ## Instalación en Unreal Engine
 
@@ -63,23 +75,5 @@ El plugin viene con un modelo preentrenado de Coco-Stuff no pudiendo modificar s
 
 - Introduce el nombre del nuevo modelo en el archivo `CustomEditorUtilities.cpp`, reemplazando la [línea 135](https://github.com/barreirodev/KAIrosPlugin/blob/main/kAIros/Source/kAIrosEditor/Private/CustomEditorUtilities.cpp#L135) en la variable `ModelName` (`coco_pretrained`) por el nuevo nombre.
 - Si se han añadido nuevos parámetros al modelo durante el entrenamiento, incorpóralos en la variable `ExtendedParameters` en la [línea 140](https://github.com/barreirodev/KAIrosPlugin/blob/main/kAIros/Source/kAIrosEditor/Private/CustomEditorUtilities.cpp#L140).
-
-### 9. Errores Comunes
-
-Durante la integración del plugin kAIros, podrían surgir varios errores que impidan el correcto funcionamiento de la herramienta. Algunos de los errores más comunes son:
-
-- **Python no instalado:** La versión utilizada fue 3.12.2.
-- **Uso de espacios en la ruta del proyecto:** Evita utilizar espacios en los nombres de las carpetas del proyecto.
-- **Requerimientos de SPADE no instalados:** Ejecuta el siguiente comando en la ruta `kAIros\ThirdParty\SPADE`:
-  ```bash
-  pip install -r requirements.txt
-  ```
-- **Versión incorrecta de CUDA Toolkit:** Asegúrate de instalar la versión 12.1. Se necesita una tarjeta gráfica de NVIDIA.
-- **PyTorch incorrecto para CUDA Toolkit:** Instala la versión correcta con este comando:
-  ```bash
-  pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-  ```
-
-Una vez resueltos estos problemas, reinicia el equipo para que la herramienta funcione correctamente. Es posible que surjan otros problemas no mencionados en este documento, pero hemos recopilado los más comunes para facilitar la integración del plugin.
-
+  
 --- 
