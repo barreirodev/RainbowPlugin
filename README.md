@@ -74,7 +74,7 @@ Durante la integración del plugin kAIros, podrían surgir varios errores que im
   ```bash
   pip install -r requirements.txt
   ```
-- **Versión incorrecta de CUDA Toolkit:** Asegúrate de instalar la versión 12.1.
+- **Versión incorrecta de CUDA Toolkit:** Asegúrate de instalar la versión 12.1. Se necesita una tarjeta gráfica de NVIDIA.
 - **PyTorch incorrecto para CUDA Toolkit:** Instala la versión correcta con este comando:
   ```bash
   pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
