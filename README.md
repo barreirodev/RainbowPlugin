@@ -73,7 +73,7 @@ El plugin viene con un modelo preentrenado de Coco-Stuff no pudiendo modificar s
 
 ### 8. Requisitos Necesarios para la Utilización de un Modelo Propio
 
-- Introduce el nombre del nuevo modelo en el archivo `CustomEditorUtilities.cpp`, reemplazando la [línea 135](https://github.com/barreirodev/KAIrosPlugin/blob/main/kAIros/Source/kAIrosEditor/Private/CustomEditorUtilities.cpp#L135) en la variable `ModelName` (`coco_pretrained`) por el nuevo nombre.
-- Si se han añadido nuevos parámetros al modelo durante el entrenamiento, incorpóralos en la variable `ExtendedParameters` en la [línea 140](https://github.com/barreirodev/KAIrosPlugin/blob/main/kAIros/Source/kAIrosEditor/Private/CustomEditorUtilities.cpp#L140).
+- Introduce el nombre del nuevo modelo en el archivo `CustomEditorUtilities.cpp`, reemplazando la [línea 135](https://github.com/barreirodev/RainbowPlugin/blob/main/Rainbow/Source/RainbowEditor/Private/CustomEditorUtilities.cpp#L135) en la variable `ModelName` (`coco_pretrained`) por el nuevo nombre.
+- Si se han añadido nuevos parámetros al modelo durante el entrenamiento, incorpóralos en la variable `ExtendedParameters` en la [línea 140](https://github.com/barreirodev/RainbowPlugin/blob/main/Rainbow/Source/RainbowEditor/Private/CustomEditorUtilities.cpp#L140).
   
 --- 
