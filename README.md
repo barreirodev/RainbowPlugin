@@ -1,6 +1,6 @@
 ---
 
-# Desarrollo de Imágenes en Unreal Engine con kAIros
+# Desarrollo de Imágenes en Unreal Engine con Rainbow
 
 ## Links
 
@@ -9,10 +9,10 @@
 
 ## Requisitos previos
 
-- Descargar la carpeta [checkpoints](https://drive.google.com/file/d/1EexTB_Ptul2WW0sg5_TOLgo4_96httSF/view?usp=drive_link), descomprimirla y colocarla en la ruta `kAIros\ThirdParty\SPADE`
+- Descargar la carpeta [checkpoints](https://drive.google.com/file/d/1EexTB_Ptul2WW0sg5_TOLgo4_96httSF/view?usp=drive_link), descomprimirla y colocarla en la ruta `Rainbow\ThirdParty\SPADE`
 - Instalar Python versión 3.12.2.
 - Evita utilizar espacios en los nombres de las carpetas del proyecto.
-- Ejecutar el siguiente comando en la ruta `kAIros\ThirdParty\SPADE`:
+- Ejecutar el siguiente comando en la ruta `Rainbow\ThirdParty\SPADE`:
   ```bash
   pip install -r requirements.txt
   ```
@@ -25,29 +25,29 @@ Reiniciar el equipo para que la herramienta funcione correctamente.
 
 ## Instalación en Unreal Engine
 
-### 1. Integración de la Herramienta kAIros
+### 1. Integración de la Herramienta Rainbow
 
-- Crear la carpeta `Plugins` en la raíz del proyecto y pegar la carpeta de kAIros. Regenerar la solución si fuera necesario.
+- Crear la carpeta `Plugins` en la raíz del proyecto y pegar la carpeta de Rainbow. Regenerar la solución si fuera necesario.
 
-### 2. Encontrar kAIros dentro del Content Browser
+### 2. Encontrar Rainbow dentro del Content Browser
 
-- Localizar la carpeta `kAIros Content` en el Content Browser.
+- Localizar la carpeta `Rainbow Content` en el Content Browser.
 
 ### 3. Localizar las Escenas
 
-- Dentro de la carpeta `kAIros Content`, encontrarás dos escenas:
+- Dentro de la carpeta `Rainbow Content`, encontrarás dos escenas:
   - La carpeta `README` contiene una breve explicación sobre la utilización de la herramienta.
-  - La carpeta `KAIrosDemo` contiene un nivel de prueba para familiarizarte rápidamente con kAIros. Dentro de él se ve como se han usado colores específicos que provienen de la carpeta Materials/Colours necesarios para su correcto funcionamiento.
+  - La carpeta `RainbowDemo` contiene un nivel de prueba para familiarizarte rápidamente con Rainbow. Dentro de él se ve como se han usado colores específicos que provienen de la carpeta Materials/Colours necesarios para su correcto funcionamiento.
 
 ### 4. Comenzar a Utilizar la Herramienta
 
-- `EUW_Kairos` contiene la herramienta kAIros para generar nuevas imágenes con Unreal Engine.
+- `EUW_Rainbow` contiene la herramienta Rainbow para generar nuevas imágenes con Unreal Engine.
 - Para ejecutarla, haz clic derecho sobre el ícono correspondiente y selecciona `Run Editor Utility Widget`.
 
-### 5. Utilización de kAIros
+### 5. Utilización de Rainbow
 
-- Aparecerá una interfaz de kAIros con instrucciones para su uso.
-- Puedes cambiar la configuración en esta pantalla. Cada vez que inicies kAIros, la configuración se restablecerá a los valores por defecto.
+- Aparecerá una interfaz de Rainbow con instrucciones para su uso.
+- Puedes cambiar la configuración en esta pantalla. Cada vez que inicies Rainbow, la configuración se restablecerá a los valores por defecto.
 - Una vez ajustada la configuración, y diseñado un nivel con los colores específicos presiona el botón `Start` para utilizar la herramienta.
 
 ### 6. Generación de Imágenes
