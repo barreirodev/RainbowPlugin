@@ -4,12 +4,12 @@
 
 ## Links
 
-[White Paper](https://drive.google.com/file/d/11Sefnpb76ci5WhjF5niEQ7aENXRuNTnA/view?usp=sharing)
-| [Vídeo Montaje de Nivel](https://drive.google.com/file/d/1sZylTRO6MfBr9T1_1lcPJihAl051Yr-c/view?usp=sharing)
+[White Paper](https://drive.google.com/file/d/1E9jv59VYhy4qs8mHv8o-HeI4r1JOpu1U/view?usp=sharing)
+| [Vídeo Montaje de Nivel](https://drive.google.com/file/d/1QAbBPh9CDfhfyvENhxLZtvx63t0MB06s/view?usp=sharing)
 
 ## Requisitos previos
 
-- Descargar la carpeta [checkpoints](https://drive.google.com/file/d/1EexTB_Ptul2WW0sg5_TOLgo4_96httSF/view?usp=drive_link), descomprimirla y colocarla en la ruta `Rainbow\ThirdParty\SPADE`
+- Descargar la carpeta [checkpoints](https://drive.google.com/file/d/1Okuu0E1V8kQvh3qahbdzmERG39Q8rOhP/view?usp=sharing), descomprimirla y colocarla en la ruta `Rainbow\ThirdParty\SPADE`
 - Instalar Python versión 3.12.2.
 - Evita utilizar espacios en los nombres de las carpetas del proyecto.
 - Ejecutar el siguiente comando en la ruta `Rainbow\ThirdParty\SPADE`:
