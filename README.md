@@ -31,7 +31,7 @@ Reiniciar el equipo para que la herramienta funcione correctamente.
 
 ### 2. Encontrar Rainbow dentro del Content Browser
 
-- Localizar la carpeta `Rainbow Content` en el Content Browser.
+- Localizar la carpeta `Rainbow Content` en el Content Browser. Si no aparece, comprobar si `Show Plugin Content` en las opciones del Content Browser está activado.
 
 ### 3. Localizar las Escenas
 
