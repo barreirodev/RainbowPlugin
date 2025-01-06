@@ -12,14 +12,14 @@
 - Descargar la carpeta [checkpoints](https://drive.google.com/file/d/1Okuu0E1V8kQvh3qahbdzmERG39Q8rOhP/view?usp=sharing), descomprimirla y colocarla en la ruta `Rainbow\ThirdParty\SPADE`
 - Instalar Python versión 3.12.2.
 - Evita utilizar espacios en los nombres de las carpetas del proyecto.
-- Ejecutar el siguiente comando en la ruta `Rainbow\ThirdParty\SPADE`:
-  ```bash
-  pip install -r requirements.txt
-  ```
 - Instalar CUDA Toolkit versión 12.1. Se necesita una tarjeta gráfica de NVIDIA.
 - Instalar PyTorch para CUDA Toolkit con este comando:
   ```bash
   pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+  ```
+- Ejecutar el siguiente comando en la ruta `Rainbow\ThirdParty\SPADE`:
+  ```bash
+  pip install -r requirements.txt
   ```
 Reiniciar el equipo para que la herramienta funcione correctamente.
 
